@@ -1,0 +1,383 @@
+/* HOMEPAGE*/
+
+body,html{
+  width:100%;
+}
+
+.bg{
+ background-image:url('mountains.jfif') ;
+ height: auto;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment:scroll;
+} /* full height background */
+
+#logo{
+  color: #fbfcf8;
+  font-family: Monteserrat;
+}
+#navbar {
+  background-image: url('universe.jpg');
+  background-size: cover;
+  background-position:center;
+  opacity: 70%;
+} /* navigation bar design*/
+
+.container1{
+  width: 100%;
+  margin:auto;
+  overflow: hidden;
+  text-align:center;
+} /* for container nav*/
+
+
+nav ul {
+  padding-left: 10px;
+  list-style: none;
+}
+
+#navbar li {
+  display:inline;
+}/* for inline pahaba*/
+
+#navbar a {
+  font-family:'Impact';
+  font-size: 25px;
+  color:whitesmoke;
+  text-decoration: none;
+  padding-right: 50px;
+
+} /* text design ng nav bar*/
+
+#navbar a:hover {
+  color: #66D3FA;
+} /*hover design in nav bar kulay kapag natapatan ng cursor or naselect*/
+
+.Formal{
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 50%;
+  border: 5px solid #416685;
+}
+#socmed{
+  float: left;
+  width: 40%;
+  padding: 0 30px;
+  box-sizing: border-box;
+  color:beige;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Bahnschrift SemiCondensed";
+  font-weight: bold ;
+  text-shadow: 3px 3px #4d4dff;
+}
+.socialmedia{
+  height: 50px;
+  width: 50px;
+  display: inline;
+  padding-left: 20px;
+}
+section ul {
+  padding-left: 0px;
+  list-style:none;
+}
+
+#socmed li{
+  display: inline;
+}
+#socmed a {
+  height: 50px;
+  width: 50px;
+} 
+
+
+.container2{
+  width: 80%;
+  height: auto;
+  margin: 100px;
+  overflow: hidden;
+}
+
+#intro {
+  float: right;
+  width: 60%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+#intro h1 {
+
+  color:whitesmoke;
+  font-size: 30px;
+  line-height: 1.5em;
+  padding: 10px;
+  font-family:"Verdana";
+  text-shadow: 3px 3px rgb(2, 75, 104);
+  text-align: justify;
+  text-indent: 80px;
+  
+}
+
+
+
+
+#main-footer {
+  background-image: url('universe.jpg');
+  color: #fff;
+  height: auto;
+  width: auto;
+  padding: 5px;
+  background-size: cover;
+  text-align: center;
+}
+
+/*ABOUT*/
+.bg1{
+  background-image:url('stars.jpg') ;
+  height:auto;
+  width:100%;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment:scroll;
+ } /* full height background */
+
+ .introphoto{
+  height: 40%;
+  width: 20%;
+  display: inline;
+  margin-top: 40px;
+  margin-left: 39%;
+  border: 5px solid #fbfcfc;
+  border-radius: 10px;
+}
+#dets{
+  padding-right: 17px;
+  color:whitesmoke;
+  text-align: center;
+  font-size: 30px;
+  line-height: 10px;
+  font-family: "Bahnschrift SemiCondensed";
+  text-shadow: 3px 3px rgb(2, 75, 104);
+}
+#dets h3 h4{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#intro2{
+  padding-right: 17px;
+  padding-bottom: 50px;;
+  color: #fbfcf8;;
+  text-align: left;
+  margin-left: 13%;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 10px;
+  font-family: "Bahnschrift SemiCondensed";
+  text-shadow: 3px 3px #4169e1;
+}
+
+#intro2 h3{
+  text-shadow: 3px 3px red;
+}
+
+
+
+.container3{
+  width: 100%;
+  height: auto;
+  margin:auto;
+  overflow: hidden;
+  text-align: left;
+  padding: 20px;
+} 
+
+#Main-language{
+  float: left;
+  width: 50%;
+  padding: 0 30px;
+  box-sizing: border-box;
+  color: whitesmoke;;
+  text-align:center;
+  font-size: 30px;
+  line-height: 1.8em;
+  font-family: "Bahnschrift SemiCondensed";
+  text-shadow: 3px 3px red ;
+}
+
+.language{
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;
+  background-color: white;
+}
+.language ul {
+  list-style:none;
+}
+#Main-language h1{
+  color: whitesmoke;
+  text-align:center;
+  font-size: 40px;
+  line-height: 1.8em;
+  font-family: "Bahnschrift SemiCondensed";
+  text-shadow: 3px 3px #4d4dff;
+}
+
+#Main-language li{
+  display:block;
+}
+
+.container4{
+  width: 100%;
+  height: auto;
+  margin: 0px 10% 10% 10%;
+  overflow: hidden;
+} 
+
+
+
+#sideskills{
+  float: right;
+  width: 50%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+#sideskills h1{
+  color: whitesmoke;
+  text-align:left;
+  font-size: 40px;
+  line-height: 1.8em;
+  font-family: "Bahnschrift SemiCondensed";
+  text-shadow: 3px 3px #4d4dff;
+}
+
+#sideskills li{
+  color: whitesmoke;;
+  text-align:left;
+  font-size: 35px;
+  line-height: 1.8em;
+  font-family: "Bahnschrift SemiCondensed";
+  text-shadow: 3px 3px rgb(2, 75, 104);
+}
+
+#SKILLS{
+  color: whitesmoke;;
+  text-align:left;
+  font-size: 40px;
+  line-height: 1.8em;
+  font-family: "Bahnschrift SemiCondensed";
+  text-shadow: 3px 3px orangered;
+  padding-left: 43%;
+}
+
+#Projects{
+  color: whitesmoke;;
+  text-align:center;
+  font-size: 40px;
+  line-height: 1.8em;
+  font-family: "Bahnschrift SemiCondensed";
+  text-shadow: 3px 3px orangered;
+}
+
+.container5{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+} /* for container ABOUT*/
+
+#ArduinoProj{
+  text-align: center;
+  color: whitesmoke;;
+  font-size: 40px;
+  line-height: 1.6em;
+  font-family: "Bahnschrift SemiCondensed";
+  text-shadow: 3px 3px red ;
+}
+#ArduinoProj h1{
+  color: whitesmoke;
+  text-align:left;
+  font-size: 50px;
+  margin-left: 5%;
+  line-height: 1.6em;
+  font-family: "Bahnschrift SemiCondensed";
+  text-shadow: 3px 3px #4d4dff;
+}
+
+.arduino{
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 20%;
+  border: 3px solid gray;
+}
+
+
+#ArduinoProj li{
+  display:inline;
+}
+
+#SE{
+  text-align: center;
+  color: whitesmoke;;
+  font-size: 40px;
+  line-height: 1.6em;
+  font-family: "Bahnschrift SemiCondensed";
+  text-shadow: 3px 3px red ;
+}
+#SE h1{
+  color: whitesmoke;
+  text-align:left;
+  font-size: 50px;
+  margin-left: 5%;
+  line-height: 1.6em;
+  font-family: "Bahnschrift SemiCondensed";
+  text-shadow: 3px 3px #4d4dff;
+}
+
+.SoftwareEng{
+  height: 700px;
+  width: 700px;
+  margin: 10px;
+  border: 3px solid gray;
+}
+
+#contacts{
+  margin-top: 10%;
+  text-align: center;
+}
+
+#contacts h2{
+  color: whitesmoke;
+  font-size: 50px;
+  margin-left: 5%;
+  line-height: 1.6em;
+  font-family: "Bahnschrift SemiCondensed";
+  text-shadow: 3px 3px #ff2079;
+}
+
+#contacts li{
+  display:inline;
+}
+
+.socialcon{
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  border-radius:  5%; 
+}
+
+
+
+
+
+
